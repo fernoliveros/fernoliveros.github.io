@@ -1,0 +1,55 @@
+
+h1 {
+	text-align: center;
+	color: white;
+	margin-top: 60px;
+}
+
+body { 
+	background-image: url("Images/Background.jpg");
+	text-align: center;
+}
+
+.pic {
+	width:304px;
+	height:228px;
+	margin: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+}
+
+.top-bar {
+	position:fixed;
+	top:0;
+	background-color: white;
+	text-align: left;
+}
+
+.top-bar-text {
+	margin: 5px;
+	font-size: 20px;
+}
+
+.in-page-title {
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	color: black;
+	text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.btn {
+	font-size: 15px;
+ 	padding: 10px;
+ 	margin: 10px;
+ 	border-style: solid;
+ 	border-color: #000000;
+ }
+
+ .log-in {
+ 	padding:1px;
+ 	font-size: 16px
+ }
+
+ .form-control {
+ 	display: inline;
+ }
