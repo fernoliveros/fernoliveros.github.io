@@ -53,3 +53,7 @@ body {
  .form-control {
  	display: inline;
  }
+ 
+ #username {
+    margin-bottom: 2px;
+ }
