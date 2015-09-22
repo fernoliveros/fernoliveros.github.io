@@ -2,27 +2,6 @@ var toggleBool = true;
 var kelseyBool = false;
 var pattyCakesBool = false;
 
-function togglePics() {
-	$('.pic1').attr("hidden", toggleBool);
-	$('.pic2').attr("hidden", !toggleBool);
-	toggleBool = !toggleBool;
-};
-
-function showBothPics() {
-	$('.pic1').attr("hidden", false);
-	$('.pic2').attr("hidden", false);
-};
-
-function kelseyBtn() {
-	$('.kelsey').attr("hidden", kelseyBool);
-	kelseyBool = !kelseyBool;
-};
-
-function pattyCakesBtn() {
-	$('.pattyCakes').attr("hidden", pattyCakesBool);
-	pattyCakesBool = !pattyCakesBool;
-};
-
 function logIn() {
 	var password = prompt("Please enter the secret password");
 
